@@ -8,9 +8,15 @@ Jump to:
 * [MedianProbHit prediction with pretrained models](#medianprobhit)
 * [Installation](#install)
 
-## <a name="coursetime"> Predicting course time completion </a>
+## <a name="coursetime"> Quick Start: Predicting course time completion </a>
 
-Run the script: `load_model_and_try_prediction.py`
+To get started, just run the included script: `load_model_and_try_prediction.py`
+
+```console
+$ conda activate reuse_onnx_models
+$ python load_model_and_try_prediction.py
+```
+Make sure you've [installed the reuse_onnx_models conda environment](#install).
 
 Should work out of the box. But if needed, edit the script to set `resource_dir = 'mastre_coursetime/'`
 
