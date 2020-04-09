@@ -1,0 +1,6 @@
+Total_Beep_Test_Shuttles,Best_Vertical_Jump,Weight,Waist_Circumference,Stature,Alcohol_Use,Caffeine_Use,Cigarette_smoker,EnglishFirst,Have_Children,Played_Team_sports,Tobacco_Chew_Use,Percent_Accurate,Personality_Mindset,Ability_Mindset,injury_past_year,injury_past_week,SensationSeeking_ThrillAdventureSeeking,SensationSeeking_ExperienceSeeking,SensationSeeking_Disinhibition,SensationSeeking_BoredomSusceptibility,blink_size,flanker_effect,face_g_n,nback_score,spwm_wmscore,speed_cRT,stroop_effect,vs_score,MedianProbHit_pre
+28,14.5,58.4,726,1570,0,0,0,0,0,0,0,0.229167,10,34,0,0,5,1,1,0,-0.166667,-1,0,1.08187,1.2,286,-0.5,-23.9375,0.571429
+51,18,63.7,760,1655,0,0,0,1,0,1,0,0.25,14,35,0,0,6,2,4,1,0.166667,15,0,2.07018,4.1,302,33,19.8125,0.75
+71,23.5,86,907,1760,1,1,0,1,0,1,0,0.354167,16,41,0,0,8,4,6,3,0.5,33,0.1,2.66667,4.6,336,131.5,56.125,0.857143
+93,27.5,99.3,993,1863,1,1,1,1,1,1,1,0.583333,19,48,1,1,10,7,8,5,0.75,51,1,3,4.93333,402,274.5,98.9375,1
+106,31.5,115.1,1135,1913,1,1,1,1,1,1,1,0.645833,20,51,1,1,10,8,10,6,1,215.5,1,3,5,1486,357.5,134.438,1
