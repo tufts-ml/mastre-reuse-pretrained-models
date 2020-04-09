@@ -110,3 +110,23 @@ Predicted Y-Factor: y
 
 ## <a name="install"> Installation </a>
 
+Requires:
+
+* Python 3.6+
+* Anaconda 4.8 ()
+* ONNX 1.6
+
+1) Install `conda` for environment and package management.
+
+Links for installation of "minimal" version of conda:
+
+<https://docs.conda.io/en/latest/miniconda.html>
+
+2) Using conda, create the project specific environment (includes ONNX and all other python packages needed)
+
+```
+$ conda env create -f reuse_onnx_models.yml
+```
+
+where the required environment YAML file is included in this repo: [reuse_onnx_models.yml](./reuse_onnx_models.yml)
+
