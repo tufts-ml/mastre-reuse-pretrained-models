@@ -1,0 +1,19 @@
+name: reuse_onnx_models
+channels:
+ - defaults
+ - conda-forge
+dependencies:
+ - python>=3.6
+ - anaconda>=4.8
+ - pip>=20.0
+ - cmake>=3.0
+ - numpy>=1.18
+ - pandas>=1.0
+ - jupyter>=1.0
+ - conda-forge::protobuf
+ - conda-forge::onnx
+ - pip:
+    - onnxruntime>=1.2
+    - skl2onnx>=1.6
+
+
