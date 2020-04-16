@@ -10,9 +10,10 @@ dependencies:
  - numpy>=1.18
  - pandas>=1.0
  - jupyter>=1.0
+ - conda-forge::pybind11
  - conda-forge::protobuf
+ - conda-forge::onnx
  - pip:
-    - onnx>=1.6
     - onnxruntime>=1.2
     - skl2onnx>=1.6
 
