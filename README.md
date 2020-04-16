@@ -119,8 +119,11 @@ Predicted Y-Factor: y
 Requires:
 
 * Python 3.6+
-* Anaconda 4.8 ()
-* ONNX 1.6
+* Anaconda 4.8 or higher
+* ONNX 1.6 or higher
+
+Update 2020-04-16: Successfully tested on Mac OS X, Linux, and Windows 10
+
 
 1) Install `conda` for environment and package management.
 
@@ -128,10 +131,43 @@ Links for installation of "minimal" version of conda:
 
 <https://docs.conda.io/en/latest/miniconda.html>
 
+Make sure this will edit your PATH (should be automatic on OS X and Linux).
+
+
+
 2) Using conda, create the project specific environment (includes ONNX and all other python packages needed)
 
+Use conda to install given platform specific instructions:
+
+* [reuse_onnx_models-win-64.yml](./reuse_onnx_models-win-64.yml)
+* [reuse_onnx_models-linux-64.yml](./reuse_onnx_models-linux-64.yml)
+* [reuse_onnx_models-osx-64.yml](./reuse_onnx_models-osx-64.yml)
+
+#### For Linux:
+
+Open any terminal, then do:
+
 ```
-$ conda env create -f reuse_onnx_models.yml
+$ conda env create -f reuse_onnx_models-linux-64.yml
+```
+
+
+#### For Mac OS X:
+
+Open any terminal, then do:
+
+```
+$ conda env create -f reuse_onnx_models-osx-64.yml
+```
+
+#### For Windows 10:
+
+Open the **Anaconda Prompt** (Instructions: <https://docs.anaconda.com/anaconda/install/verify-install/#conda>)
+
+Then do:
+
+```
+$ conda env create -f reuse_onnx_models-win-64.yml
 ```
 
 where the required environment YAML file is included in this repo: [reuse_onnx_models.yml](./reuse_onnx_models.yml)
