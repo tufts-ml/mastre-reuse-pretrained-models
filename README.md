@@ -116,16 +116,18 @@ Predicted Y-Factor: y
 
 ## <a name="install"> Installation </a>
 
-Requires:
+### Requirements
 
-* Python 3.6+
 * Anaconda 4.8 or higher
+* Python 3.6+
 * ONNX 1.6 or higher
 
-Update 2020-04-16: Successfully tested on Mac OS X, Linux, and Windows 10
+Follow the two steps below to install *everything* on your local system.
+
+These have been successfully tested on Mac OS X, Linux, and Windows 10 as of 2020-04-16.
 
 
-1) Install `conda` for environment and package management.
+### Step 1) Install `conda` for environment and package management.
 
 Links for installation of "minimal" version of conda:
 
@@ -134,34 +136,35 @@ Links for installation of "minimal" version of conda:
 Make sure this will edit your PATH (should be automatic on OS X and Linux).
 
 
+### Step 2) Using conda, create the project specific environment (includes ONNX and all other python packages needed)
 
-2) Using conda, create the project specific environment (includes ONNX and all other python packages needed)
+Use conda to install all needed software using platform specific instructions:
 
-Use conda to install given platform specific instructions:
+#### Step 2 for Linux: Install reuse_onnx_models environment
 
-* Windows: [reuse_onnx_models-win-64.yml](./reuse_onnx_models-win-64.yml)
-* Linux: [reuse_onnx_models-linux-64.yml](./reuse_onnx_models-linux-64.yml)
-* Mac OS X: [reuse_onnx_models-osx-64.yml](./reuse_onnx_models-osx-64.yml)
+For Linux, we use this environment specification file: [reuse_onnx_models-linux-64.yml](./reuse_onnx_models-linux-64.yml)
 
-#### Linux: Install the reuse_onnx_models environment
-
-Open any terminal, then do:
+To install, just open any terminal, then do:
 
 ```
 $ conda env create -f reuse_onnx_models-linux-64.yml
 ```
 
-#### Mac OS X: Install the reuse_onnx_models environment
+#### Step 2 for Mac OS X: Install reuse_onnx_models environment
 
-Open any terminal, then do:
+For Mac OS X, we use this environment specification file: [reuse_onnx_models-osx-64.yml](./reuse_onnx_models-osx-64.yml)
+
+To install, just open any terminal, then do:
 
 ```
 $ conda env create -f reuse_onnx_models-osx-64.yml
 ```
 
-#### Windows 10: Install the reuse_onnx_models environment
+#### Step 2 for Windows 10: Install reuse_onnx_models environment
 
-Open the **Anaconda Prompt** (Instructions: <https://docs.anaconda.com/anaconda/install/verify-install/#conda>)
+For Windows, we use this environment specification file: [reuse_onnx_models-win-64.yml](./reuse_onnx_models-win-64.yml)
+
+To install, just open the **Anaconda Prompt** (Instructions: <https://docs.anaconda.com/anaconda/install/verify-install/#conda>)
 
 Then do:
 
