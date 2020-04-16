@@ -139,11 +139,11 @@ Make sure this will edit your PATH (should be automatic on OS X and Linux).
 
 Use conda to install given platform specific instructions:
 
-* [reuse_onnx_models-win-64.yml](./reuse_onnx_models-win-64.yml)
-* [reuse_onnx_models-linux-64.yml](./reuse_onnx_models-linux-64.yml)
-* [reuse_onnx_models-osx-64.yml](./reuse_onnx_models-osx-64.yml)
+* Windows: [reuse_onnx_models-win-64.yml](./reuse_onnx_models-win-64.yml)
+* Linux: [reuse_onnx_models-linux-64.yml](./reuse_onnx_models-linux-64.yml)
+* Mac OS X: [reuse_onnx_models-osx-64.yml](./reuse_onnx_models-osx-64.yml)
 
-#### For Linux:
+#### Linux: Install the reuse_onnx_models environment
 
 Open any terminal, then do:
 
@@ -151,8 +151,7 @@ Open any terminal, then do:
 $ conda env create -f reuse_onnx_models-linux-64.yml
 ```
 
-
-#### For Mac OS X:
+#### Mac OS X: Install the reuse_onnx_models environment
 
 Open any terminal, then do:
 
@@ -160,7 +159,7 @@ Open any terminal, then do:
 $ conda env create -f reuse_onnx_models-osx-64.yml
 ```
 
-#### For Windows 10:
+#### Windows 10: Install the reuse_onnx_models environment
 
 Open the **Anaconda Prompt** (Instructions: <https://docs.anaconda.com/anaconda/install/verify-install/#conda>)
 
@@ -169,6 +168,3 @@ Then do:
 ```
 $ conda env create -f reuse_onnx_models-win-64.yml
 ```
-
-where the required environment YAML file is included in this repo: [reuse_onnx_models.yml](./reuse_onnx_models.yml)
-
